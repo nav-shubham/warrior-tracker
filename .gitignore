@@ -1,6 +1,13 @@
 venv/
 .env
-generate_reqs.bat
-setup_venv.bat  
 __pycache__/
 *.pyc
+*.bat
+
+# Added by Antigravity CLI
+.env.*
+.env.local
+.venv/
+downloader.db
+emails.db
+env/
